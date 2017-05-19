@@ -1,0 +1,106 @@
+<com.wendu.yjqtk.view.NoTouchScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                  android:id="@+id/mScrollView"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"
+                                  android:background="@color/base_white"
+                                  android:fadingEdge="none"
+                                  android:focusable="true"
+                                  android:focusableInTouchMode="true"
+                                  android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/base_white"
+        android:fitsSystemWindows="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <WebView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/webview"
+
+        />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dim150"
+            android:layout_marginTop="@dimen/dim120"
+            android:src="@mipmap/bg_biaoti" />
+
+
+        <EditText
+            android:id="@+id/et_count"
+            style="@style/edt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim88"
+            android:digits="@string/guiz"
+            android:hint="请输入账号"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/et_psw"
+            style="@style/edt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim88"
+            android:digits="@string/guiz"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:text="" />
+
+
+        <Button
+            android:id="@+id/buttontjdl"
+            style="@style/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim88"
+            android:text="登 录" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/textzhuce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:text="注册帐号"
+                android:textColor="@color/base_textcolor_grey"
+                android:textSize="@dimen/txt26" />
+
+            <View
+                android:id="@+id/blow_btn"
+                android:layout_width="@dimen/dim2"
+                android:layout_height="@dimen/dim28"
+                android:layout_marginLeft="@dimen/dim50"
+                android:background="#cccccc" />
+
+            <Button
+                android:id="@+id/textwjmm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim50"
+                android:background="@color/transparent"
+                android:text="忘记密码"
+                android:textColor="@color/base_textcolor_grey"
+                android:textSize="@dimen/txt26" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</com.wendu.yjqtk.view.NoTouchScrollView>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="edt_login">
+        <item name="android:layout_marginLeft">@dimen/dim30</item>
+        <item name="android:layout_marginRight">@dimen/dim30</item>
+        <item name="android:layout_marginTop">@dimen/dim30</item>
+        <item name="android:paddingLeft">@dimen/dim22</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/base_textcolor_black</item>
+        <item name="android:textSize">@dimen/txt32</item>
+    </style>
+
+    <style name="button_register">
+        <item name="android:layout_marginLeft">@dimen/dim30</item>
+        <item name="android:layout_marginRight">@dimen/dim30</item>
+        <item name="android:layout_marginTop">@dimen/dim50</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/base_white</item>
+        <item name="android:textSize">@dimen/txt36</item>
+    </style>
+</resources>
